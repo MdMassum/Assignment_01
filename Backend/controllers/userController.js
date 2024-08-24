@@ -3,7 +3,7 @@ const Errorhandler = require('../utils/errorhandler')
 const catchAsyncError = require('../middleware/catchAsyncErrors')
 const bcrypt = require('bcryptjs')
 
-// creating a user --> Register
+// creating a user --> 
 exports.createUser = catchAsyncError(async(req,res) =>{
 
     const{name,email,password} = req.body;
