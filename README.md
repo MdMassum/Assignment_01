@@ -1,6 +1,6 @@
 # Node App with Mongoose and APIs
 
-This project is a Node app that uses Mongoose to connect to a MongoDB database and provides three APIs to retrieve, store, update, and delete data.
+This project is a Node app that uses Mongoose to connect to a MongoDB database and provides APIs to retrieve, store, update, and delete data.
 
 ## Getting Started
 
