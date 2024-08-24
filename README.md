@@ -34,3 +34,8 @@ The application uses Postman to test the API endpoints.
 ## Version Control
 
 This project uses Git for version control.
+
+## Deployement
+
+Deployed the backend part on render
+link : `https://assignment-01-qc5c.onrender.com/`

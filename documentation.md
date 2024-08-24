@@ -1,8 +1,8 @@
-Overview :
+## Overview :
     This repository contains a Node.js application. The application is a RESTful API that interacts with a MongoDB database using Mongoose.It uses Mongoose to connect to a MongoDB database and provides APIs to retrieve, store, update, and delete data.
 
 
-Directory Structure : Backend/
+## Directory Structure : Backend/
 
     server.js: The main application file that sets up the server.
 
@@ -21,18 +21,18 @@ Directory Structure : Backend/
     package.json: A file that contains metadata about the project and its dependencies.
 
 
-Environment Variables : 
+## Environment Variables : 
     The application uses the following environment variables:
 
         PORT: The port number on which the server listens. Defaults to 3000.
         MONGODB_URL: The URI of the MongoDB database.
 
 
-Database : 
+## Database : 
     The application uses a MongoDB database to store data. The database is connected using Mongoose.
 
 
-Model :
+## Model :
     User Model:
         The User model is defined in models/userModel.js. It has the following properties:
 
@@ -41,7 +41,7 @@ Model :
         password: A string representing the user's Password.
 
 
-Routes :
+## Routes :
     User Routes
         The User routes are defined in routes/user.js. The following routes are available:
         
@@ -53,14 +53,14 @@ Routes :
         DELETE  /deleteUser/:id      : Deletes an existing user
 
 
-Error Handling :
+## Error Handling :
     The application uses the following error handling mechanisms:
 
         Uncaught exceptions are caught using process.on('uncaughtException').
         Unhandled promise rejections are caught using process.on('unhandledRejection').
 
 
-Error Handler Middleware :
+## Error Handler Middleware :
     This middleware function is responsible for handling errors that occur during the execution of the application. It catches errors, sets a default status code and message, and returns a JSON response to the client.
 
     Parameters:
@@ -88,11 +88,17 @@ Error Handler Middleware :
                 message: The error message.
 
 
-Testing:
+## Testing:
     The application uses Postman to test the API endpoints.
     postman test link : 
-        https://assignment-7873.postman.co/workspace/Team-Workspace~2385dd1d-fc62-4556-886a-4d0692660b2a/collection/35181588-070f111e-2cfe-4d28-bea0-05682f3cbf41?action=share&creator=35181588
+`https://assignment-7873.postman.co/workspace/Team-Workspace~2385dd1d-fc62-4556-886a-4d0692660b2a/collection/35181588-070f111e-2cfe-4d28-bea0-05682f3cbf41?action=share&creator=35181588`
 
 
-Version Control:
+## Version Control:
     The application uses Git for version control. The repository is hosted on GitHub.
+
+
+## Deployement
+
+Deployed the backend part on render
+link : `https://assignment-01-qc5c.onrender.com/`
