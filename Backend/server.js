@@ -14,14 +14,14 @@ process.on("uncaughtException",()=>{
 
 // config
 dotenv.config({path:'Backend/config/config.env'});  // for using environment variables
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 
 // connecting to database
 ConnectToMongo();
 
 // creating server
 const server = app.listen(port,()=>{
-    console.log(`Backend Server is working on http://localhost:${port}`);
+    console.log(`Backend Server is working on port : ${port}`);
 })
 
 // handling unhandled promise rejection

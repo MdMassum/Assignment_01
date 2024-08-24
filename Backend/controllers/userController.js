@@ -11,7 +11,11 @@ exports.createUser = catchAsyncError(async(req,res) =>{
     let user = await User.create({
         name,email,password,
     });
-    res.status(200).json(user);
+    const {password:pass, ...rest} = user._doc;  // for removing password field and sending rest 
+    res.status(200).json({
+        success:true,
+        rest
+    });
 })
 
 // get all users  -->

@@ -25,6 +25,12 @@ The User model is defined in `models/userModel.js`.
 
 The app connects to a MongoDB database using Mongoose.
 
+## Testing
+
+The application uses Postman to test the API endpoints.
+    postman test link : 
+        `https://assignment-7873.postman.co/workspace/Team-Workspace~2385dd1d-fc62-4556-886a-4d0692660b2a/collection/35181588-070f111e-2cfe-4d28-bea0-05682f3cbf41?action=share&creator=35181588`
+
 ## Version Control
 
 This project uses Git for version control.
